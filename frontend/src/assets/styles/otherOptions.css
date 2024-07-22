@@ -1,0 +1,24 @@
+.pizza-home-container-addons-modal-background
+{
+ position: fixed;
+ width: 100vw;
+ height: 100vh;
+ top: 0;
+ z-index: 100;
+  background-color: rgba(5, 17, 21, 1);
+ /* opacity: 0.5; */
+ display: flex;
+ align-items: center ;
+ justify-content: center;
+ cursor: pointer;
+
+}
+/* best modal code */
+.pizza-home-container-addons-modal
+{
+ width: 640px;
+ height: 490px;
+ background-color: white;
+ position: absolute;
+ opacity: 1;
+}

@@ -1,0 +1,64 @@
+.pizza-cart-page-main-view
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+
+ width: 100%;
+   background: linear-gradient(
+    rgba(255, 164, 89, 0.9),
+    rgba(255, 164, 89, 0.9)
+  ),repeat-y url("../images/pizzabg3.jpg") center;
+  background-size: cover;
+  background-color: #FF6000;
+  color: #FFE6C7;
+  height: calc(100% - 90px);
+  overflow: auto;
+  /* background-blend-mode: color; */
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  padding-top: 40px;
+}
+
+.pizza-cart-page-main-view-steps
+{
+ width: 804px;
+ min-height: 500px;
+ height: fit-content;
+  background: linear-gradient(
+    rgba(255, 164, 89, 0.9),
+    rgba(255, 164, 89, 0.9)
+  ),repeat-y url("../images/pizzabg3.jpg") center;
+  background-size: cover;
+  background-color: #FF6000;
+}
+
+
+.pizza-cart-page-main-view-steps-address
+{
+ width: 779px;
+ min-height: 215px;
+ padding: 40px 35px;
+ background: linear-gradient(
+    rgba(255, 94, 19, 0.9),
+    rgba(255, 94, 19, 0.9)
+  ),repeat-y url("../images/pizzabg3.jpg") center;
+  background-size: cover;
+  background-color: #FF6000;
+}
+
+
+
+.pizza-cart-page-main-view-order
+{
+ width: 366px;
+ height: fit-content;
+ min-height: 550px;
+   background: linear-gradient(
+    rgba(255, 94, 19, 0.9),
+    rgba(255, 94, 19, 0.9)
+  ),repeat-y url("../images/pizzabg3.jpg") center;
+  background-size: cover;
+  background-color: #FF6000;
+}

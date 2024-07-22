@@ -1,0 +1,98 @@
+.notification-container{
+ max-height: 89vh;
+ width: 440px;
+ overflow-y: auto;
+
+
+}
+.notification-container-header
+{
+ padding: 1vw;
+ height: 45px;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+    align-items: center;
+}
+.notification-container-header>div
+{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #1A1F36;
+}
+.notification-container-header>div>span
+{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+color: #9EA0AA;
+}
+.notification-container-header>section
+{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #1A1F36;
+}
+.notification-container-header>section>img{
+ margin-top: -1px;
+ width: 14px;
+height: 14px;
+
+}
+.notification-container-message
+{
+ position: relative;
+ border-top: solid #A5ACB8 1px ;
+}
+.notification-container-message-unread
+{
+ position: absolute;
+ top: 8px;
+ left: 8px;
+ width: 8px;
+height: 8px;
+background: #90CDF4;
+border: 1px solid #4299E1;
+border-radius: 100%;
+
+}
+.notification-container-message-top
+{
+ margin-top: 16px;
+ margin-bottom: 16px;
+ padding: 0 16px;
+}
+.notification-container-message-top>img
+{
+width: 32px;
+height: 32px;
+border-radius: 24px;
+margin-right:16px;
+}
+.notification-container-message-top>span{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+color: #1A1F36;
+}
+.notification-container-message-bottom
+{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: #A5ACB8;
+margin-bottom: 16px;
+margin-left: 64px;
+}

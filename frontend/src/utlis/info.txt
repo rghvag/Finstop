@@ -1,0 +1,66 @@
+These rules are the fundamental foundation of how pure functions work. Pure functions follow the following set of rules.
+
+A pure function does not use any external data to obtain the return value.
+In other words a pure function uses only the inputs of the function to get the return value.
+A pure function has no side effects.
+This means when you run a pure function it does not change anything outside the function.
+A pure function will give the same output every time as long as the inputs remain the same.
+
+
+
+
+Utils folder consists of some repeatedly used functions that are commonly used in the project. It should contain only common js functions & objects like dropdown options, regex condition, data formatting, etc.
+
+
+service vs util
+In a nutshell the service folder is where you place the business logic set by the company, utilities folder on the other hand is a place to place functions that is used here and there
+
+
+
+services folder. This folder contains all your code for interfacing with any external API. Generally, on larger projects you will have many different APIs you need to access and this folder is the place to put the code that interacts with those APIs. Again this helps clean up your code since instead of littering a bunch of API interaction code in your application it is all within this one folder.
+
+
+
+
+lazy loading
+Lazy loading is not a new concept. It has been available for quite some time. In essence, lazy loading means that a component or a part of code must get loaded when it is required. It is also referred to as code splitting and data fetching.
+
+adv->
+In situations where we know that certain code/features will not be accessible to all the users or the user does not access it frequently, it is best to load them when the user requests for it. This improves user experience as well as initial loading time.
+
+<suspence> work both .lazy() and simple imports
+
+
+<StrictMode> lets you find common bugs in your components early during development
+
+https://react.dev/reference/react/StrictMode#fixing-bugs-found-by-re-running-effects-in-development
+Your components will re-render an extra time to find bugs caused by impure rendering.
+Your components will re-run Effects an extra time to find bugs caused by missing Effect cleanup.
+Your components will be checked for usage of deprecated APIs.
+
+Application programming interface
+API deprecation is the process of gracefully discontinuing an API. The process starts by first informing the customers that the API is no longer actively supported even though it will be operational and suggesting them to migrate to an alternate or latest version of the API.
+
+
+
+
+
+
+
+
+
+
+
+Link
+The Link component is provided by react-router-dom and is used to navigate within the app. It renders an anchor tag (<a>) under the hood, which links to internal routes. The Link component utilizes the "to" attribute, which can be either a string or an object. If the "to" attribute is a string, it will render an anchor tag with an href equal to the string.
+
+If the "to" attribute is an object, it will render an anchor tag with an href equal to the pathname of the object. If the object version of the "to" attribute is used, you can pass four different properties: pathname (the path link), search (query params), hash (to put in URL), and state (persisting state).
+
+Examples:
+
+NavLink
+NavLink is a component provided by react-router-dom that allows users to navigate throughout the React application. NavLink is similar to Link, but it has the ability to add additional styling attributes to the element. For example, you can use NavLink to style the active link differently than the other links. NavLink utilizes the "activeClassName" attribute. This is the class that will be applied to the element when it is active.
+
+Example:
+
+The NavLink component has an activeClassName of 'active', which will enable when the user is on the about page. You can style the activeClassName in a CSS file. For example, if we wanted the NavLink to be green when it is active, we could write the following CSS:

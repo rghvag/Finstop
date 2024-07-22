@@ -1,0 +1,88 @@
+.pizza-card-inner-container
+{
+     margin: 9px;
+    width: 280px;
+    height: 420px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 8%;
+    overflow: hidden;
+    transition: box-shadow 0.6s ease;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.pizza-card-inner-container:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.6s ease;
+}
+
+.pizza-card-inner-container-image
+{
+ width: 100%;
+ height: 40%;
+}
+.pizza-card-inner-container-image>img
+{
+ height: 100%;
+ width: 100%;
+}
+.pizza-card-inner-container-detail
+{
+ width: 100%;
+ height: 13%;
+ color: rgb(255, 98, 0);
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.pizza-card-inner-container-detail>span
+{
+  width: 50%;
+  font-weight: 500;
+  padding-left: 5px;
+  text-align: left;
+}
+.pizza-card-inner-container-detail>section
+{
+  flex-grow:1 ;
+  font-weight: 500;
+  padding-right: 5px;
+  text-align: right;
+}
+
+
+
+.pizza-card-inner-container-desp
+{
+ height: 35%;
+ width: 100%;
+ color: rgba(0, 0, 0, 0.535);
+ text-align: justify;
+ padding: 0 15px;
+ font-size: 14px;
+ font-weight: 600;
+}
+.pizza-card-inner-container-button
+{
+ width: 100%;
+ flex-grow: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.pizza-card-inner-container-button>button
+{
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background-color: rgba(255, 98, 0, 0.899);
+  color: white;
+  font-weight: 600;
+}

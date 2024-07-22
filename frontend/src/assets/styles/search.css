@@ -1,0 +1,25 @@
+.pizza-home-search-bar-container
+{
+ /* background-color: #fff; */
+    border: none;
+    border-radius: 4px 0 0 4px;
+    height: 45px;
+    margin-left: 2vw;
+    position: relative;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.pizza-home-search-bar-container-bar
+{
+ background-color: #fff;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    height: 35px;
+    padding-left: 2vw;
+    position: relative;
+    width: 60%;
+    outline: none;
+}
